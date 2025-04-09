@@ -1,0 +1,3 @@
+"how would you pass a value that's a foreign key in one table and a primary key (like id) on the frontend? would it be prop handling?"
+"how would this be done easily in vue? essentially passing a prop from one vue file to another?"
+"can you pass a prop with routerlink?
