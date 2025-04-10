@@ -1,0 +1,4 @@
+Caleb Gladwin: Backend 
+Ashwin Gnannaseelan: homepage functionality, contecting front end to back end
+Justin Li: Globe page design and functionality
+Heather Meatherall: vue framework template, homepage design, finalized UI design 

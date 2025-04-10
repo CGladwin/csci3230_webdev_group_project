@@ -106,7 +106,7 @@
 
   /* Note form input area */
   .note-form textarea {
-    width: 100%;
+    width: 93%;
     height: 60px;
     margin-bottom: 10px;
     resize: none;
@@ -124,13 +124,14 @@
 
   /* Note form save button */
   .note-form button:first-of-type {
-    background-color: black;
+    background-color: #333;
     color: white;
   }
 
   /* Note form cancel button */
   .note-form button:last-of-type {
     background-color: lightgray;
+    color: #333;
   }
 
   /* Help button styling */

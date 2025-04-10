@@ -6,9 +6,10 @@
       <!-- Sidebar for map tools -->
       <div class="sidebar" :class="{ open: sidebarOpen }">
         <nav>
-        <!--Link back to homepage (if required)-->
-        <RouterLink to="/">
-          <i class="pi pi-home"></i> <span class="nav-text">Home</span>
+        <!--Link back to homepage-->
+        <button id="btn-export">
+          <RouterLink to="/">
+          <i class="pi pi-home"></i><span class="nav-text">Home</span>
         </RouterLink>
         <button id="btn-export" @click="exportRoutes">
           <i class="pi pi-download"></i> <span class="nav-text">Export Route</span>
