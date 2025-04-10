@@ -7,10 +7,11 @@
       <div class="sidebar" :class="{ open: sidebarOpen }">
         <nav>
         <!--Link back to homepage-->
-        <button id="btn-export">
+       <button id="btn-export">
           <RouterLink to="/">
           <i class="pi pi-home"></i><span class="nav-text">Home</span>
         </RouterLink>
+        </button>
         <button id="btn-export" @click="exportRoutes">
           <i class="pi pi-download"></i> <span class="nav-text">Export Route</span>
         </button>
