@@ -1,3 +1,12 @@
 "how would you pass a value that's a foreign key in one table and a primary key (like id) on the frontend? would it be prop handling?"
 "how would this be done easily in vue? essentially passing a prop from one vue file to another?"
 "can you pass a prop with routerlink?
+“How can I optimize payload construction for a POST request?”
+“What are some ways to optimize css styling, particularly padding with elements?”
+“How can I isolate mouse events such that they do not conflict with each other?”
+“Explain Mapbox’s GeoJSON format”
+“What are the functional similarities/differences between the mapbox mobile sdk's versus mapbox gl js?”
+"What should my Express route look like to allow deleting a specific post under a specific trip?"
+"How do I create a responsive grid layout for cards?"
+"What are some clean button styles with hover animations in Vue?"
+"What’s the proper way to handle JSON parsing errors in a fetch() response?"
