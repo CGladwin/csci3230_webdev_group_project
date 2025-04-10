@@ -1,35 +1,17 @@
-# message-board
+# 🌍 Travel Journal 📓
 
-This template should help get you started developing with Vue 3 in Vite.
+Travel Journal is a trip blogging site, where users can organize and record information about their trips. It features an interactive mapbox UI, allowing users to see their trip route directly onto a globe map. 
 
-## Recommended IDE Setup
+## Features Highlight
+* Vue Framework
+* Database for trip posts
+* mapbox api
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
+To Run Travel Journal
 
-```sh
-npm install
-```
+1. download the code 
+2. npm install
+3. npm run start
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
