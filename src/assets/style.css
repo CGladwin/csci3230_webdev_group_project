@@ -1,0 +1,280 @@
+
+
+#layout {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #444444;
+  }
+  
+  nav {
+    padding: 20px;
+    background-color: #9cc2fc6c;
+  }
+  
+  nav a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav a.router-link-exact-active {
+    color: #007bff;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  header h1 {
+    color: white;
+  }
+  
+  h3 {
+    color: #444444;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    color: #333;
+  }
+  
+  //
+  .home {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .trip-card {
+    position: relative;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .trip-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 16px #3386c0;
+  }
+
+  .btn-add-trip {
+    background-color: #3386c0;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: bold;
+    height: 60px;
+    width: 60px;
+    margin: 30px auto 0;
+    display: block;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+  .btn-add-trip:hover {
+    background-color: #3386c0;
+    transform: scale(1.05);
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    display: flex; justify-content: center; align-items: center;
+    z-index: 1000;
+  }
+
+  .modal-content {
+    background: #3386c0;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .modal-content input {
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  .modal-content h2 {
+    color: white;
+  }
+
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.btn-delete {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #ff4d4d;
+}       
+
+.btn-delete:hover {
+    color: #ff1a1a;
+}
+    
+.btn-save{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn-cancel{
+    background-color: lightgray;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    }
+
+  //
+  .trip-view {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .posts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    justify-items: center;
+  }
+
+  
+  .btn-add-post {
+    background-color: #3386c0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: auto;
+    text-align:center;
+    display: block;
+  }
+  .btn-add-post a{
+    color: white;
+    text-decoration: none
+  }
+  
+  .btn-add-post:hover {
+    background-color: #3386c0;
+    transform: scale(1.03);
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex; justify-content: center; align-items: center;
+    z-index: 1000;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 8px;
+  }
+  
+  button {
+    padding: 6px;
+    font-size: 18px;
+    background: #3386c0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  span {
+    font-size: 15px;
+    text-align: center;
+    margin: 5%;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #3386c0;
+    margin-bottom: 0%;
+  }
+  h6 {
+    margin-top: 0%;
+  }
+  
+  .post-card {
+    position: relative;
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-sizing: border-box;
+  }
+  
+  .post-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 3px 12px 0 #3386c0;
+  }

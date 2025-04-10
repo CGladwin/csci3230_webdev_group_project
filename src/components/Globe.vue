@@ -6,10 +6,12 @@
       <!-- Sidebar for map tools -->
       <div class="sidebar" :class="{ open: sidebarOpen }">
         <nav>
-        <!--Link back to homepage (if required)-->
-        <RouterLink to="/">
-          <i class="pi pi-home"></i> <span class="nav-text">Home</span>
+        <!--Link back to homepage-->
+        <button id="btn-export">
+          <RouterLink to="/">
+          <i class="pi pi-home"></i><span class="nav-text">Home</span>
         </RouterLink>
+        </button>
         <!--Export button for json conversion and db storage-->
         <button id="btn-export" @click="exportPins">
           <i class="pi pi-thumbtack"></i> <span class="nav-text">Export Pins</span>
